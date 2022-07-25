@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+}
+
+.app_header{
+  display: flex; /*Structure containers into rows and columns (flex by default rows)*/
+  justify-content: space-between; /*Space between children of container*/
+  align-items: center; /*Aligns to center of container*/
+  margin-bottom: 20px;
+}
+.app_stats {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+body{
+  background-color: #f5f6fa;
+}
+
+.app_left{
+  padding-right: 20px;
+}
+.app_right{
+  padding-right: 20px;
+}
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+@media (max-width: 1400px) {
+  .app{
+    flex-direction: column;
+  }
+}
