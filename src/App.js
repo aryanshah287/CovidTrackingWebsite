@@ -20,6 +20,7 @@ function App() {
 
   //state = how to write a variable in react
   //USEEFFECT = runs a piece of code based on a condition
+  // ......
   useEffect(()=>{
     fetch('https://disease.sh/v3/covid-19/all')
     .then(response => response.json())
